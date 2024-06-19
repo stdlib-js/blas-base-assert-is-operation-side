@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@esm/index.mjs';
+import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@v0.0.1-esm/index.mjs';
 ```
 
 #### isOperationSide( value )
@@ -93,7 +93,7 @@ bool = isOperationSide( 'left' );
 <body>
 <script type="module">
 
-import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@esm/index.mjs';
+import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@v0.0.1-esm/index.mjs';
 
 var bool = isOperationSide( 'right' );
 // returns true
