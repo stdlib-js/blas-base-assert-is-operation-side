@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-assert-is-operation-side/tags). For example,
+
+```javascript
 import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@v0.0.2-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ bool = isOperationSide( 'left' );
 <body>
 <script type="module">
 
-import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@v0.0.2-esm/index.mjs';
+import isOperationSide from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-assert-is-operation-side@esm/index.mjs';
 
 var bool = isOperationSide( 'right' );
 // returns true
